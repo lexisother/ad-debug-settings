@@ -1,0 +1,26 @@
+{
+  "name": "ad-debug-settings",
+  "version": "1.0.0",
+  "description": "Show and allow enabling of debug settings",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "project-selene-watch",
+    "build": "project-selene-build",
+    "watch": "project-selene-watch",
+    "copyassets": "project-selene-copy-assets",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alyxia Sother <alyxia@riseup.net>",
+  "dependencies": {
+    "@project-selene/api": "link:../Project-Selene/ProjectSelene.Modloader.API"
+  },
+  "devDependencies": {
+    "typescript": "~5.5.3"
+  },
+  "project-selene": {
+    "id": "ad-debug-settings",
+    "name": "Debug Settings",
+    "version": "1.0.0"
+  }
+}
